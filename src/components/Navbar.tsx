@@ -1,18 +1,17 @@
-import { Link, useLocation } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Collection", to: "/portfolio" },
-  { label: "Services", to: "/services" },
-  { label: "Contact", to: "/contact" },
-] as const;
+  { label: "Home", to: "/" as const },
+  { label: "About", to: "/about" as const },
+  { label: "Collection", to: "/portfolio" as const },
+  { label: "Services", to: "/services" as const },
+  { label: "Contact", to: "/contact" as const },
+];
 
 export function Navbar() {
-  const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
