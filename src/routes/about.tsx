@@ -23,7 +23,7 @@ function AboutPage() {
           <AnimatedSection>
             <div className="relative aspect-[2.5/4] overflow-hidden">
               <img
-                src="src\assets\sanchita_best.png"
+                src="../src/assets/sanchita_best.png"
                 alt="Sanchita Derekar portrait"
                 width={800}
                 height={1080}
