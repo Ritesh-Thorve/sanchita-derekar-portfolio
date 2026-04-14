@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { AnimatedSection } from "@/components/AnimatedSection";
-import portraitImage from "@/assets/portrait.jpg";
+import sanchita from "@/assets/sanchita_best.png";
 
 export const Route = createFileRoute("/about")({
   component: AboutPage,
@@ -23,7 +23,7 @@ function AboutPage() {
           <AnimatedSection>
             <div className="relative aspect-[2.5/4] overflow-hidden">
               <img
-                src="../src/assets/sanchita_best.png"
+                src={sanchita}
                 alt="Sanchita Derekar portrait"
                 width={800}
                 height={1080}
