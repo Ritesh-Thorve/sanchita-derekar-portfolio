@@ -19,7 +19,7 @@ function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = `mailto:hello@sanchitaderekar.com?subject=Inquiry from ${formData.name}&body=${formData.message}`;
+    window.location.href = `mailto:sanchitadarekar2008@gmail.com?subject=Inquiry from ${formData.name}&body=${formData.message}`;
   };
 
   return (

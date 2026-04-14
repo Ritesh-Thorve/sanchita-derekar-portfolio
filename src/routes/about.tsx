@@ -21,13 +21,13 @@ function AboutPage() {
       <section className="min-h-screen flex items-center px-6">
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <AnimatedSection>
-            <div className="relative aspect-[3/4] overflow-hidden">
+            <div className="relative aspect-[2.5/4] overflow-hidden">
               <img
-                src={portraitImage}
+                src="src\assets\sanchita_best.png"
                 alt="Sanchita Derekar portrait"
                 width={800}
                 height={1080}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-[50%_15%]  "
                 loading="lazy"
               />
               <div className="absolute inset-0 border border-gold/20" />
@@ -68,7 +68,7 @@ function AboutPage() {
 
             <AnimatedSection delay={0.8}>
               <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                Fresh out of my design journey, I'm here to make my mark — one stitch at a time. Every piece I create tells a story woven from heritage, innovation, and an unapologetic love for beauty. My work explores the intersection where traditional craftsmanship meets modern silhouettes.
+                Fresh out of my design journey, I'm here to make my mark  one stitch at a time. Every piece I create tells a story woven from heritage, innovation, and an unapologetic love for beauty. My work explores the intersection where traditional craftsmanship meets modern silhouettes.
               </p>
             </AnimatedSection>
 

@@ -22,7 +22,7 @@ const services = [
   {
     icon: Scissors,
     title: "Textile Curation",
-    description: "Sourcing and selecting the finest fabrics — from hand-woven silks to sustainable organic materials — to bring each design to its fullest potential.",
+    description: "Sourcing and selecting the finest fabrics  from hand-woven silks to sustainable organic materials  to bring each design to its fullest potential.",
   },
   {
     icon: Sparkles,
