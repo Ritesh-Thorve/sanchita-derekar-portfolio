@@ -9,9 +9,9 @@ export const Route = createFileRoute("/portfolio")({
   component: PortfolioPage,
   head: () => ({
     meta: [
-      { title: "The Collection — Sanchita Derekar" },
-      { name: "description", content: "Explore the collection by Sanchita Derekar. Where tradition meets contemporary fashion." },
-      { property: "og:title", content: "The Collection — Sanchita Derekar" },
+      { title: "The Collection — Sanchita Darekar" },
+      { name: "description", content: "Explore the collection by Sanchita Darekar. Where tradition meets contemporary fashion." },
+      { property: "og:title", content: "The Collection — Sanchita Darekar" },
     ],
   }),
 });
